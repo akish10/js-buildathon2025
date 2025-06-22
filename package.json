@@ -5,6 +5,7 @@
     "@azure/core-auth": "^1.9.0",
     "@azure/core-sse": "latest",
     "openai": "^5.3.0",
+    "pdf-parse": "^1.1.1",
     "sharp": "^0.34.2"
   }
 }
