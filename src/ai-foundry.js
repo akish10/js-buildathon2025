@@ -4,7 +4,7 @@ dotenv.config();
 
 import { AzureOpenAI } from "openai";
 
-const endpoint = "https://odhia-mc81i572-eastus2.cognitiveservices.azure.com/";
+const endpoint = "<my-end-point>/";
 const modelName = "gpt-4o";
 const deployment = "js-aibuildathongpt-4o";
 
