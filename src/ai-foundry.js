@@ -10,7 +10,7 @@ const deployment = "js-aibuildathongpt-4o";
 
 export async function main() {
 
-  const apiKey = "PHAZSwj7bqWQwNGqzuamYWxdGpCPfDqbuac3scuqJ07GuZQA8tOcJQQJ99BFACHYHv6XJ3w3AAAAACOGZyv2";
+  const apiKey = "<my-api-key>";
   const apiVersion = "2024-04-01-preview";
   const options = { endpoint, apiKey, deployment, apiVersion }
 
@@ -19,7 +19,7 @@ export async function main() {
   const response = await client.chat.completions.create({
     messages: [
       { role:"system", content: "You are a helpful assistant." },
-      { role:"user", content: "I am going to Paris, what should I see?" }
+      { role:"user", content: "Highlight some iron rich sources for a vegan?" }
     ],
     max_tokens: 4096,
       temperature: 1,
